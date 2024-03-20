@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 public class TreeNode {
     int val;
     TreeNode left;
