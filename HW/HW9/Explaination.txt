@@ -1,0 +1,2 @@
+If both p and q are on 1 side, then keep moving down keep tracking of node
+Once we find a node that had p and q on separate sides return that node as the lowest common ancestor

@@ -1,0 +1,3 @@
+If empty tree, then return true
+If left is larger than root or right is smaller than root return false
+Repeat with recursion 
