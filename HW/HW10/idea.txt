@@ -1,0 +1,1 @@
+Using DFS we go down every left node first then right. We recursively call the method with the next child node and count + 1 (for level count) then adding it to the list.
