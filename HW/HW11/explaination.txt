@@ -1,0 +1,5 @@
+Steps
+=============
+Save color to variable
+Change color
+Check 4 sides for same color with old color, if same move in and change, repeat
