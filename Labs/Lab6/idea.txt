@@ -1,0 +1,1 @@
+The question ask us to tell if we can complete the courses, not give an order to finish all courses. So I initialize all in degrees with 0, go through the pre-req array and increment the in degrees. Then I use the pre-req array to check if the requirements have an in degree, if so, we can't finish.
