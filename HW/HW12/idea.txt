@@ -4,3 +4,6 @@ Create a visited list to keep track of house visited to prevent extra costs
 While queue isn't empty just check if both houses on the pipes are visited, if not, then
 We can add to the min cost, else just drop it. 
 After that just added the lowest well cost to the min we have and return.
+
+* Didn't know if we had to implement our own heaps though, but because I was lazy
+I just imported priorityqueue, 
