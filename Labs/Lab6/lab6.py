@@ -9,6 +9,10 @@ def canFinish(numCourses, prerequisites):
         in_degree[prerequisites[i][0]] += 1
 
     for i in range(len(prerequisites)):
+        if in_degree[prerequisites[i][1]] == 0:
+            in_degree[prerequisites[i][0]] -= 1
+
+    for i in range(len(prerequisites)):
         if (in_degree[prerequisites[i][1]] != 0):
             finish = False
 

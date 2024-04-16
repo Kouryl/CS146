@@ -4,3 +4,5 @@ So I initialize all in degrees with 0, go through the pre-req array and incremen
 Then again by decrementing outgoings.
 
 Then I use the pre-req array to check if the requirements have an in degree, if so, we can't finish.
+
+Basically kahn's algorithm or similar.
