@@ -1,0 +1,4 @@
+Sort the coins array, add to a stack so that the max value is at the top
+
+Using a while loop with amount > 0, we keep decreasing the amount by the top of the stack until
+While keeping a track of coins until we can't then we pop
